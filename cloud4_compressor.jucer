@@ -32,7 +32,7 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="cloud4_compressor"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="cloud4_compressor" enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="cloud4_compressor"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
